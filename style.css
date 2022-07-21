@@ -18,7 +18,10 @@ ol {
   margin: 0;
   padding: 20px;
 }
-
+#active{
+  color: blue;
+}
+@media (min-width : 800) {
 #grid{
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -28,4 +31,5 @@ ol {
 }
 #grid2{
   padding-left: 75px;
+}
 }
